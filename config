@@ -1,0 +1,53 @@
+#########################
+# インテグレーション設定
+#########################
+# https://zenn.dev/koya_iwamura/articles/65e4fbb747bcd2
+shell-integration = zsh
+shell-integration-features = no-cursor
+
+####################
+# カラーテーマ
+####################
+# theme = Iceberg Dark
+theme = 0x96f
+# theme = 12-bit Rainbow
+# theme = Chalkboard
+# theme = Cyberpunk
+# theme = Dark Pastel
+
+#####################
+# フォント設定
+#####################
+# https://github.com/yuru7/udev-gothic/releases/tag/v2.1.0
+font-family = UDEV Gothic 35NFLG
+# リガチャオフ
+font-feature = -dlig
+font-feature = -liga
+font-feature = -calt
+
+font-size = 10
+cursor-style = block
+cursor-style-blink = false
+# ssh接続先での$TERM対策
+# term = xterm-256color
+
+####################
+# カーソル設定
+#####################
+cursor-style = block
+
+####################
+# ウィンドウ設定
+#####################
+# 上部の隙間を無くす
+window-padding-y = 0
+# 透過させる設定
+# background-opacity = 0.75
+background-opacity = 0.99
+background-opacity-cells = true
+# タイトルバーをタブ形式にする
+macos-titlebar-style = tabs
+# 画面分割時にアクティブなウィンドウ以外は暗くする
+unfocused-split-fill = gainsboro
+
+keybind = shift+enter=text:\x1b\r
