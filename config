@@ -8,12 +8,7 @@ shell-integration-features = no-cursor
 ####################
 # カラーテーマ
 ####################
-# theme = Iceberg Dark
 theme = 0x96f
-# theme = 12-bit Rainbow
-# theme = Chalkboard
-# theme = Cyberpunk
-# theme = Dark Pastel
 
 #####################
 # フォント設定
@@ -42,8 +37,8 @@ cursor-style = block
 # 上部の隙間を無くす
 window-padding-y = 0
 # 透過させる設定
-# background-opacity = 0.75
-background-opacity = 0.99
+background-opacity = 0.85
+background-blur = true
 background-opacity-cells = true
 # タイトルバーをタブ形式にする
 macos-titlebar-style = tabs
