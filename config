@@ -24,7 +24,7 @@ font-size = 10
 cursor-style = block
 cursor-style-blink = false
 # ssh接続先での$TERM対策
-# term = xterm-256color
+term = xterm-256color
 
 ####################
 # カーソル設定
