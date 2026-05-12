@@ -37,7 +37,7 @@ cursor-style = block
 # 上部の隙間を無くす
 window-padding-y = 0
 # 透過させる設定
-background-opacity = 0.85
+background-opacity = 0.75
 background-blur = true
 background-opacity-cells = true
 # タイトルバーをタブ形式にする
